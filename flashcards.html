@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title>Ben DeGiglio | Flashcards App</title>
+		<meta name="viewport" content="width=device-width, user-scalable=yes">
+		<link rel="stylesheet" href="flashcards.css" type="text/css" media="all" /> 
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="TweenMax.min.js"></script>
+		<script type="text/javascript" src="flashcards.js"></script>
+
+		
+		
+	</head>
+	<body>
+		<div class="content-wrapper">
+			<h1>Seinfeld Trivia</h1>
+			<div class="final-score-wrap">
+				<h2 id="finalScore"></h2>
+			</div>
+			<div class="work_images_container">
+				<div class="pfc_wrapper">
+				    <div id="pfc_card_wrap"></div>
+				    <div id="pfc_controls">
+				        <div class="thumbnail-container">
+				            <ul id="nav"></ul>
+				        </div>
+				        <div id="pfc_nav">
+				            <div class="score-container">
+				                <div id="pfc_score">0%</div>
+				            </div>
+				            <div class="fc-controls-container">
+				                <a href="#previous" id="prev">Back</a>
+				                <a href="#next" id="next">Next</a>
+				            </div>
+				            <a href="#" class="flip-btn" id="btn_flip">Flip &#8634;</a>
+				            <a href="#" class="flip-btn active" id="btn_inactive">Flip &#8634;</a>
+				        </div>
+				        <div class="status">
+				            <div class="status-bar-container">
+				                <div id="statusBar"></div>
+				            </div>
+				            <h6 id="numerical"></h6>
+				        </div>
+				    </div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
